@@ -1,0 +1,3 @@
+[submodule "sch/double-action-keyboard/lib/KiCad-RP-Pico"]
+	path = sch/double-action-keyboard/lib/KiCad-RP-Pico
+	url = https://github.com/ncarandini/KiCad-RP-Pico.git

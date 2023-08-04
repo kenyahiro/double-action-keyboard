@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "pico")(type "KiCad")(uri "${KIPRJMOD}/lib/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "NPS-102-668")(type "KiCad")(uri "${KIPRJMOD}/lib/NPS-102-668/NPS-102-668.kicad_sym")(options "")(descr ""))
+)
