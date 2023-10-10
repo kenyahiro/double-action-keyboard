@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "pico")(type "KiCad")(uri "${KIPRJMOD}/lib/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
   (lib (name "NPS-102-668")(type "KiCad")(uri "${KIPRJMOD}/lib/NPS-102-668/NPS-102-668.kicad_sym")(options "")(descr ""))
+  (lib (name "my_pico")(type "KiCad")(uri "${KIPRJMOD}/lib/my_pico/my_pico.kicad_sym")(options "")(descr ""))
+  (lib (name "AQM1602")(type "KiCad")(uri "${KIPRJMOD}/lib/AQM1602/AQM1602.kicad_sym")(options "")(descr ""))
+  (lib (name "AQM1248")(type "KiCad")(uri "${KIPRJMOD}/lib/AQM1248/AQM1248.kicad_sym")(options "")(descr ""))
 )
