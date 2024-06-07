@@ -1165,10 +1165,10 @@
 		(uuid "09d9fb37-b7d9-428d-88fe-6d96bbb63488")
 	)
 	(junction
-		(at 83.82 46.99)
+		(at 46.99 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "27f6bea5-8576-40e8-89e1-cee37f392889")
+		(uuid "3456bacb-b32d-4c73-bc42-cfe3aa325435")
 	)
 	(junction
 		(at 69.85 34.29)
@@ -1177,16 +1177,22 @@
 		(uuid "38450445-7331-4f83-9ac2-4fc68c7be783")
 	)
 	(junction
-		(at 54.61 121.92)
+		(at 242.57 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6dc9e224-d9f9-4e13-8256-b53140031634")
+		(uuid "898a831f-e06d-4c35-b99e-59c002623e17")
 	)
 	(junction
 		(at 54.61 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d6f1659-b7db-4190-9f34-2885f52c5d5c")
+	)
+	(junction
+		(at 240.03 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ff3cce7-cd45-4260-9e84-8491cc7e63ed")
 	)
 	(junction
 		(at 121.92 36.83)
@@ -1201,6 +1207,12 @@
 		(uuid "9b78dbfe-0611-40f5-9e6f-62ddbf61d9b7")
 	)
 	(junction
+		(at 44.45 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa5fa8b9-79a0-4583-8f51-2f4bccfe9dde")
+	)
+	(junction
 		(at 46.99 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1211,12 +1223,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c12892ac-9929-462d-b077-9f02e8c566b4")
-	)
-	(junction
-		(at 57.15 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd797e2a-baf2-44aa-9081-810ae3caf2a3")
 	)
 	(junction
 		(at 62.23 34.29)
@@ -1246,6 +1252,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 116.84) (xy 76.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b2a4d8-1a13-4bf1-b614-3aa371429854")
+	)
+	(wire
+		(pts
 			(xy 106.68 54.61) (xy 142.24 54.61)
 		)
 		(stroke
@@ -1256,7 +1272,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 168.91) (xy 46.99 171.45)
+			(xy 232.41 100.33) (xy 232.41 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1306,7 +1322,17 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 176.53) (xy 33.02 179.07)
+			(xy 46.99 81.28) (xy 46.99 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126048c6-846f-44d8-ac86-65cf147928b3")
+	)
+	(wire
+		(pts
+			(xy 218.44 107.95) (xy 218.44 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1326,23 +1352,13 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 166.37) (xy 22.86 168.91)
+			(xy 208.28 97.79) (xy 208.28 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1960de8a-11a9-4d21-9d9b-3eb4028c8a68")
-	)
-	(wire
-		(pts
-			(xy 54.61 121.92) (xy 54.61 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eb23b51-e1ee-4b66-a326-0f625b948aa3")
 	)
 	(wire
 		(pts
@@ -1356,7 +1372,17 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 166.37) (xy 33.02 168.91)
+			(xy 208.28 134.62) (xy 208.28 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20916482-0873-4b17-86d5-d5c965cdc336")
+	)
+	(wire
+		(pts
+			(xy 218.44 97.79) (xy 218.44 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1366,7 +1392,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 121.92) (xy 86.36 121.92)
+			(xy 46.99 121.92) (xy 86.36 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1396,6 +1422,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 100.33) (xy 240.03 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c75635-17de-4139-88f8-352c0021d37b")
+	)
+	(wire
+		(pts
 			(xy 142.24 67.31) (xy 142.24 64.77)
 		)
 		(stroke
@@ -1413,16 +1449,6 @@
 			(type default)
 		)
 		(uuid "2e828d4c-cce5-4faa-a261-924177689d93")
-	)
-	(wire
-		(pts
-			(xy 83.82 46.99) (xy 83.82 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f681164-345b-4e42-b898-825f04a4db2b")
 	)
 	(wire
 		(pts
@@ -1446,6 +1472,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 137.16) (xy 232.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321d4e61-3400-4eac-8f41-41a18680443c")
+	)
+	(wire
+		(pts
 			(xy 69.85 44.45) (xy 69.85 46.99)
 		)
 		(stroke
@@ -1463,6 +1499,16 @@
 			(type default)
 		)
 		(uuid "353afd35-59c8-4bc4-953b-3e6fddaf5e17")
+	)
+	(wire
+		(pts
+			(xy 240.03 81.28) (xy 240.03 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365166a0-5e16-4725-996e-3f3350787aeb")
 	)
 	(wire
 		(pts
@@ -1496,17 +1542,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 124.46) (xy 57.15 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4272b5c0-7387-4277-a030-8ad84cd366db")
-	)
-	(wire
-		(pts
-			(xy 44.45 52.07) (xy 44.45 124.46)
+			(xy 44.45 52.07) (xy 44.45 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1516,13 +1552,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 46.99) (xy 86.36 46.99)
+			(xy 218.44 144.78) (xy 218.44 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4500be00-182b-4619-bae0-8fce29a62d6e")
+		(uuid "4385b63c-f10e-4d81-8521-dfb509743f16")
 	)
 	(wire
 		(pts
@@ -1533,6 +1569,16 @@
 			(type default)
 		)
 		(uuid "47b2f302-b08f-4a15-b4d7-9f75b75d8848")
+	)
+	(wire
+		(pts
+			(xy 208.28 144.78) (xy 208.28 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4917decf-4202-4223-a7f9-71e999bdaba7")
 	)
 	(wire
 		(pts
@@ -1553,6 +1599,16 @@
 			(type default)
 		)
 		(uuid "520cc19c-354a-4db3-8762-5202f22dc446")
+	)
+	(wire
+		(pts
+			(xy 242.57 83.82) (xy 242.57 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544b6a0b-c948-4ece-8835-a09988e4542d")
 	)
 	(wire
 		(pts
@@ -1606,13 +1662,23 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 171.45) (xy 59.69 171.45)
+			(xy 232.41 102.87) (xy 245.11 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "67fc009f-b87a-4150-abab-6014b16728a5")
+	)
+	(wire
+		(pts
+			(xy 240.03 137.16) (xy 245.11 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6816acbb-877f-4ba7-a5c8-b9718d2fff2f")
 	)
 	(wire
 		(pts
@@ -1636,6 +1702,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 83.82) (xy 44.45 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d34e033-cdc7-4a25-9c8f-99a678016934")
+	)
+	(wire
+		(pts
 			(xy 54.61 36.83) (xy 54.61 34.29)
 		)
 		(stroke
@@ -1646,7 +1722,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 46.99) (xy 83.82 46.99)
+			(xy 69.85 46.99) (xy 86.36 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1656,23 +1732,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 173.99) (xy 57.15 176.53)
+			(xy 232.41 107.95) (xy 232.41 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78ca767f-c497-4a1c-911c-712eec0bbe24")
-	)
-	(wire
-		(pts
-			(xy 46.99 121.92) (xy 54.61 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79f38046-9744-44be-86b4-d84469c059b2")
+		(uuid "76c8bb69-1f3f-4157-94c7-b3c5a6d6655b")
 	)
 	(wire
 		(pts
@@ -1683,6 +1749,16 @@
 			(type default)
 		)
 		(uuid "7d30eec8-20de-4cf4-851e-25de72555649")
+	)
+	(wire
+		(pts
+			(xy 232.41 142.24) (xy 245.11 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f2b626e-666b-48db-bdb2-bfc8bc36a33f")
 	)
 	(wire
 		(pts
@@ -1726,6 +1802,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 83.82) (xy 242.57 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c35157-e29b-4109-b56f-eed3e6bdc1e5")
+	)
+	(wire
+		(pts
 			(xy 54.61 34.29) (xy 62.23 34.29)
 		)
 		(stroke
@@ -1756,6 +1842,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 144.78) (xy 232.41 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5e56dd-e1c4-4e31-b009-e14cace477b5")
+	)
+	(wire
+		(pts
 			(xy 142.24 139.7) (xy 142.24 137.16)
 		)
 		(stroke
@@ -1766,6 +1862,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 81.28) (xy 240.03 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61c4552-927b-4c21-a17c-67b25b7e1153")
+	)
+	(wire
+		(pts
 			(xy 86.36 52.07) (xy 54.61 52.07)
 		)
 		(stroke
@@ -1773,6 +1879,26 @@
 			(type default)
 		)
 		(uuid "a7181bc1-bdd9-406b-9f60-e8e36ad99d7c")
+	)
+	(wire
+		(pts
+			(xy 76.2 106.68) (xy 76.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab0f9659-a63c-4a48-9dd1-cc18afcc62e5")
+	)
+	(wire
+		(pts
+			(xy 232.41 139.7) (xy 245.11 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc453f0-d531-403b-b125-4af2148db673")
 	)
 	(wire
 		(pts
@@ -1796,13 +1922,23 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 168.91) (xy 59.69 168.91)
+			(xy 240.03 100.33) (xy 245.11 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b878e128-91cd-4194-a992-1342f7de9f11")
+	)
+	(wire
+		(pts
+			(xy 76.2 119.38) (xy 86.36 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb343d9f-1f47-4bb4-b321-8a227f15060c")
 	)
 	(wire
 		(pts
@@ -1816,7 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 124.46) (xy 86.36 124.46)
+			(xy 44.45 124.46) (xy 86.36 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1826,7 +1962,17 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 49.53) (xy 46.99 121.92)
+			(xy 245.11 134.62) (xy 242.57 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0f30ca-5ecc-40f6-a523-01a0a96f5e18")
+	)
+	(wire
+		(pts
+			(xy 46.99 49.53) (xy 46.99 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1846,23 +1992,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 119.38) (xy 83.82 119.38)
+			(xy 242.57 97.79) (xy 242.57 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6dc5182-31de-4287-82e4-6662cfde2cbc")
-	)
-	(wire
-		(pts
-			(xy 44.45 124.46) (xy 57.15 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cae4c87f-e232-4abc-ba50-4290388015bb")
+		(uuid "c64e6952-656e-4406-ace0-6677f662db17")
 	)
 	(wire
 		(pts
@@ -1986,7 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 176.53) (xy 22.86 179.07)
+			(xy 208.28 107.95) (xy 208.28 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2003,6 +2139,16 @@
 			(type default)
 		)
 		(uuid "e4d906ac-d3e4-4a94-9df2-00a10a6739d7")
+	)
+	(wire
+		(pts
+			(xy 218.44 134.62) (xy 218.44 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec61690d-ad7f-4c4c-9e7d-c4670378fe74")
 	)
 	(wire
 		(pts
@@ -2036,7 +2182,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 166.37) (xy 57.15 166.37)
+			(xy 245.11 97.79) (xy 242.57 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2056,7 +2202,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 173.99) (xy 57.15 173.99)
+			(xy 232.41 105.41) (xy 245.11 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2074,9 +2220,21 @@
 		)
 		(uuid "ff24b4ee-abdc-4da2-9178-d41e6371a378")
 	)
+	(rectangle
+		(start 195.58 77.47)
+		(end 267.97 157.48)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c9aceacd-1a38-438a-acc9-7cb3b0945acb)
+	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 68.58 173.99 0)
+		(at 254 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2087,7 +2245,7 @@
 	)
 	(text "SCL"
 		(exclude_from_sim no)
-		(at 68.58 168.91 0)
+		(at 254 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2098,7 +2256,18 @@
 	)
 	(text "VCC"
 		(exclude_from_sim no)
-		(at 68.58 171.45 0)
+		(at 254 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4abc36db-4bb3-49ff-bed9-9012ad4e3290")
+	)
+	(text "VCC"
+		(exclude_from_sim no)
+		(at 254 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2107,9 +2276,20 @@
 		)
 		(uuid "82b7179f-9593-4699-ac89-5078f2690469")
 	)
+	(text "SCL"
+		(exclude_from_sim no)
+		(at 254 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84d7f021-7e5b-4a15-ae25-6a71e2226940")
+	)
 	(text "SDA"
 		(exclude_from_sim no)
-		(at 68.58 166.37 0)
+		(at 254 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2117,6 +2297,38 @@
 			(justify left bottom)
 		)
 		(uuid "c2d5169d-0047-474b-9f20-69b793130d96")
+	)
+	(text "SDA"
+		(exclude_from_sim no)
+		(at 254 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e03a1517-a73c-4c2f-a9b1-bde7fb852d7d")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 254 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4a00257-0fd4-4e7a-a84e-a03791fec527")
+	)
+	(text "OLED"
+		(exclude_from_sim no)
+		(at 230.378 76.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fc358920-a397-4079-87d7-49f03f651cdd")
 	)
 	(hierarchical_label "LCD_I2C_SDA"
 		(shape bidirectional)
@@ -2203,6 +2415,72 @@
 			(project "double-action-keyboard"
 				(path "/99b55f71-96ca-4365-b829-4f6def2430a7/5493c2e6-f6cb-4c43-8646-cebb815e138d"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 208.28 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f0ae490-bf1c-4639-a364-f2889883140f")
+		(property "Reference" "#PWR022"
+			(at 208.28 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 208.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d734c25e-ecff-410d-ba46-eb4bb1ab807b")
+		)
+		(instances
+			(project "double-action-keyboard"
+				(path "/99b55f71-96ca-4365-b829-4f6def2430a7/5493c2e6-f6cb-4c43-8646-cebb815e138d"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -2298,17 +2576,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 22.86 166.37 0)
+		(lib_id "power:GND")
+		(at 232.41 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "27a4ca4d-cadb-48ca-b04a-2d623557013c")
-		(property "Reference" "#PWR015"
-			(at 22.86 170.18 0)
+		(uuid "1715b9ab-2c3d-411c-a419-a743ab327882")
+		(property "Reference" "#PWR025"
+			(at 232.41 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,8 +2594,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 22.86 161.29 0)
+		(property "Value" "GND"
+			(at 232.41 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +2603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 166.37 0)
+			(at 232.41 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +2612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 166.37 0)
+			(at 232.41 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2621,148 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 166.37 0)
+			(at 232.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b02c6a9-1ff0-4ef0-bebf-1c6df6abff07")
+		)
+		(instances
+			(project "double-action-keyboard"
+				(path "/99b55f71-96ca-4365-b829-4f6def2430a7/5493c2e6-f6cb-4c43-8646-cebb815e138d"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 250.19 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "219bd1c5-53e5-4984-9f86-64d860257ecd")
+		(property "Reference" "J3"
+			(at 248.92 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 248.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 250.19 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2438a8fb-cef9-4dda-9442-007df56312ae")
+		)
+		(pin "2"
+			(uuid "896d4577-ac4e-425e-a617-305025c6367a")
+		)
+		(pin "3"
+			(uuid "a8670546-10b7-4cc6-8761-6de792006c9f")
+		)
+		(pin "4"
+			(uuid "d6234823-dafb-4466-924a-7d52c948f3e7")
+		)
+		(instances
+			(project "double-action-keyboard"
+				(path "/99b55f71-96ca-4365-b829-4f6def2430a7/5493c2e6-f6cb-4c43-8646-cebb815e138d"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 208.28 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27a4ca4d-cadb-48ca-b04a-2d623557013c")
+		(property "Reference" "#PWR015"
+			(at 208.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 208.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,6 +2777,75 @@
 			(project "double-action-keyboard"
 				(path "/99b55f71-96ca-4365-b829-4f6def2430a7/5493c2e6-f6cb-4c43-8646-cebb815e138d"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 218.44 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2af4e7f4-c150-45f4-b384-a57daf56cec9")
+		(property "Reference" "C10"
+			(at 220.98 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 220.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 219.4052 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ea67d1c-767d-4d98-b547-d25c2a1cf6b4")
+		)
+		(pin "2"
+			(uuid "a5c947db-f066-4eab-afe9-40920207c81b")
+		)
+		(instances
+			(project "double-action-keyboard"
+				(path "/99b55f71-96ca-4365-b829-4f6def2430a7/5493c2e6-f6cb-4c43-8646-cebb815e138d"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2431,7 +2919,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 33.02 166.37 0)
+		(at 218.44 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2440,7 +2928,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c6c6ab9-27ff-462e-b532-cefea87eddb0")
 		(property "Reference" "#PWR016"
-			(at 33.02 170.18 0)
+			(at 218.44 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +2937,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 33.02 161.29 0)
+			(at 218.44 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2457,7 +2945,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 166.37 0)
+			(at 218.44 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +2954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 166.37 0)
+			(at 218.44 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2963,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 166.37 0)
+			(at 218.44 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2497,7 +2985,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 33.02 172.72 0)
+		(at 218.44 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2505,7 +2993,7 @@
 		(dnp no)
 		(uuid "2ea25e7d-b501-485e-a612-9b011bef23de")
 		(property "Reference" "C8"
-			(at 35.56 171.45 0)
+			(at 220.98 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2514,7 +3002,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 35.56 173.99 0)
+			(at 220.98 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,7 +3011,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 33.9852 176.53 0)
+			(at 219.4052 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,7 +3020,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 172.72 0)
+			(at 218.44 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,7 +3029,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 172.72 0)
+			(at 218.44 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,6 +3047,141 @@
 			(project "double-action-keyboard"
 				(path "/99b55f71-96ca-4365-b829-4f6def2430a7/5493c2e6-f6cb-4c43-8646-cebb815e138d"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 76.2 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fb3d345-e847-4507-b2be-a9e05e763f04")
+		(property "Reference" "R6"
+			(at 77.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 77.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 74.422 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebb57ac5-3110-4af1-8438-cd2b132cd7db")
+		)
+		(pin "2"
+			(uuid "35c6246c-6176-4236-af87-6cd8a6255f1b")
+		)
+		(instances
+			(project "double-action-keyboard"
+				(path "/99b55f71-96ca-4365-b829-4f6def2430a7/5493c2e6-f6cb-4c43-8646-cebb815e138d"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3115b2f9-ae81-47bf-9681-35b8e0375866")
+		(property "Reference" "#PWR027"
+			(at 218.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "182c9c35-24a1-494a-bf92-6f0679363fa6")
+		)
+		(instances
+			(project "double-action-keyboard"
+				(path "/99b55f71-96ca-4365-b829-4f6def2430a7/5493c2e6-f6cb-4c43-8646-cebb815e138d"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2704,7 +3327,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 64.77 168.91 0)
+		(at 250.19 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2712,7 +3335,7 @@
 		(dnp no)
 		(uuid "3fbceb07-7354-47ba-9926-df7dd2bd6497")
 		(property "Reference" "J2"
-			(at 63.5 158.75 0)
+			(at 248.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,7 +3344,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 63.5 161.29 0)
+			(at 248.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,7 +3353,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 64.77 168.91 0)
+			(at 250.19 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2739,7 +3362,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 168.91 0)
+			(at 250.19 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,7 +3371,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 168.91 0)
+			(at 250.19 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,6 +3536,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 218.44 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51b77cc1-7d8e-43e3-b42c-b8b10380bb66")
+		(property "Reference" "#PWR023"
+			(at 218.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 218.44 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "337b6ed1-45c3-4d9f-a692-871ddc2d3893")
+		)
+		(instances
+			(project "double-action-keyboard"
+				(path "/99b55f71-96ca-4365-b829-4f6def2430a7/5493c2e6-f6cb-4c43-8646-cebb815e138d"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 142.24 133.35 0)
 		(unit 1)
@@ -3042,6 +3731,72 @@
 			(project "double-action-keyboard"
 				(path "/99b55f71-96ca-4365-b829-4f6def2430a7/5493c2e6-f6cb-4c43-8646-cebb815e138d"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67d84278-9622-4365-864f-a03e8b7fbbe4")
+		(property "Reference" "#PWR026"
+			(at 208.28 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ec0c694-8131-45bb-a4dd-67259e0ca196")
+		)
+		(instances
+			(project "double-action-keyboard"
+				(path "/99b55f71-96ca-4365-b829-4f6def2430a7/5493c2e6-f6cb-4c43-8646-cebb815e138d"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3250,17 +4005,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 46.99 168.91 0)
+		(lib_id "Device:C")
+		(at 208.28 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e376fd6-4142-4a5e-b339-79a52f12c0c1")
-		(property "Reference" "#PWR017"
-			(at 46.99 172.72 0)
+		(uuid "8a5a27a4-da60-45a7-bb50-5d009d500a81")
+		(property "Reference" "C9"
+			(at 210.82 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 210.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 209.2452 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,25 +4040,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 46.99 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 168.91 0)
+		(property "Datasheet" "~"
+			(at 208.28 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,7 +4050,76 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 168.91 0)
+			(at 208.28 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "136cf080-ce50-410b-9ab1-2940aed36b93")
+		)
+		(pin "2"
+			(uuid "27db9d8d-7a89-4b6a-b255-50b2380ff094")
+		)
+		(instances
+			(project "double-action-keyboard"
+				(path "/99b55f71-96ca-4365-b829-4f6def2430a7/5493c2e6-f6cb-4c43-8646-cebb815e138d"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 232.41 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e376fd6-4142-4a5e-b339-79a52f12c0c1")
+		(property "Reference" "#PWR017"
+			(at 232.41 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 232.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3477,6 +4301,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 232.41 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a88c61f4-b691-4fc0-a619-f9a74c2d664a")
+		(property "Reference" "#PWR024"
+			(at 232.41 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 232.41 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77c51e09-4ea1-4a61-8304-f12f0badd0b5")
+		)
+		(instances
+			(project "double-action-keyboard"
+				(path "/99b55f71-96ca-4365-b829-4f6def2430a7/5493c2e6-f6cb-4c43-8646-cebb815e138d"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 151.13 0)
 		(unit 1)
@@ -3544,7 +4434,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 176.53 0)
+		(at 232.41 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3553,7 +4443,7 @@
 		(fields_autoplaced yes)
 		(uuid "b15681c9-87d7-48c3-bcba-05f24754b6d8")
 		(property "Reference" "#PWR018"
-			(at 57.15 182.88 0)
+			(at 232.41 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,7 +4452,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 181.61 0)
+			(at 232.41 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3570,7 +4460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 176.53 0)
+			(at 232.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3579,7 +4469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 176.53 0)
+			(at 232.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3588,7 +4478,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 176.53 0)
+			(at 232.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,6 +4493,72 @@
 			(project "double-action-keyboard"
 				(path "/99b55f71-96ca-4365-b829-4f6def2430a7/5493c2e6-f6cb-4c43-8646-cebb815e138d"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 76.2 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7833297-a7d1-418b-8fac-bdf1ee75c9b9")
+		(property "Reference" "#PWR021"
+			(at 76.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "875f778b-856e-47c3-b153-91712dac2743")
+		)
+		(instances
+			(project "double-action-keyboard"
+				(path "/99b55f71-96ca-4365-b829-4f6def2430a7/5493c2e6-f6cb-4c43-8646-cebb815e138d"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3947,7 +4903,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 179.07 0)
+		(at 208.28 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3956,7 +4912,7 @@
 		(fields_autoplaced yes)
 		(uuid "df43e521-9af9-47ec-a864-985afa695c3e")
 		(property "Reference" "#PWR019"
-			(at 22.86 185.42 0)
+			(at 208.28 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,7 +4921,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 184.15 0)
+			(at 208.28 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3973,7 +4929,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 179.07 0)
+			(at 208.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +4938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 179.07 0)
+			(at 208.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +4947,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 179.07 0)
+			(at 208.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +4969,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 22.86 172.72 0)
+		(at 208.28 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4021,7 +4977,7 @@
 		(dnp no)
 		(uuid "ef99defa-2c2f-4768-8497-24d3e5f1dc60")
 		(property "Reference" "C7"
-			(at 25.4 171.45 0)
+			(at 210.82 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,7 +4986,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 25.4 173.99 0)
+			(at 210.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4039,7 +4995,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 23.8252 176.53 0)
+			(at 209.2452 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4048,7 +5004,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 172.72 0)
+			(at 208.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4057,7 +5013,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 172.72 0)
+			(at 208.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +5038,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 179.07 0)
+		(at 218.44 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4091,7 +5047,7 @@
 		(fields_autoplaced yes)
 		(uuid "f657154c-eecf-457b-9ea5-a50fe99b2934")
 		(property "Reference" "#PWR020"
-			(at 33.02 185.42 0)
+			(at 218.44 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +5056,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 184.15 0)
+			(at 218.44 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4108,7 +5064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 179.07 0)
+			(at 218.44 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4117,7 +5073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 179.07 0)
+			(at 218.44 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4126,7 +5082,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 179.07 0)
+			(at 218.44 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
