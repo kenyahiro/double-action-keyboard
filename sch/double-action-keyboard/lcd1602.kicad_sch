@@ -2668,7 +2668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "OLED_I2C:OLED_I2C"
 			(at 250.19 137.16 0)
 			(effects
 				(font
@@ -3352,7 +3352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "OLED_I2C:OLED_I2C"
 			(at 250.19 100.33 0)
 			(effects
 				(font
