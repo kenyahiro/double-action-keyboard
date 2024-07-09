@@ -5,4 +5,5 @@
   (lib (name "my_pico_smd")(type "KiCad")(uri "${KIPRJMOD}/lib/my_pico/my_pico_smd.pretty")(options "")(descr ""))
   (lib (name "AQM1602")(type "KiCad")(uri "${KIPRJMOD}/lib/AQM1602/AQM1602.pretty")(options "")(descr ""))
   (lib (name "OLED_I2C")(type "KiCad")(uri "${KIPRJMOD}/lib/OLED_I2C/OLED_I2C.pretty")(options "")(descr ""))
+  (lib (name "hole1mm")(type "KiCad")(uri "${KIPRJMOD}/lib/hole1mm/hole1mm.pretty")(options "")(descr ""))
 )
