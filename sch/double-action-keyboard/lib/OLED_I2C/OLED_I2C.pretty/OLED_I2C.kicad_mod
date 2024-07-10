@@ -218,8 +218,8 @@
 		(uuid "110fb385-fb0b-4fa5-817c-9563606ec082")
 	)
 	(fp_rect
-		(start -1.2 -9.94)
-		(end 26.3 17.56)
+		(start -1.2 -8.71)
+		(end 26.3 16.33)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -229,8 +229,8 @@
 		(uuid "4c6d3abd-cef1-403f-a29e-750e243dbd45")
 	)
 	(fp_rect
-		(start 5 -9.5)
-		(end 19 17)
+		(start 5 -8.27)
+		(end 19 15.77)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -240,8 +240,8 @@
 		(uuid "baedbdc4-86c7-4752-8d21-b5f65dfb8865")
 	)
 	(fp_circle
-		(center 2 -6.5)
-		(end 4 -6.5)
+		(center 0.8 -6.71)
+		(end 1.8 -6.71)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -251,8 +251,8 @@
 		(uuid "32c6b3ec-44f6-42e4-a24c-c00293819547")
 	)
 	(fp_circle
-		(center 2 14.5)
-		(end 4 14.5)
+		(center 0.8 14.33)
+		(end 1.8 14.33)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -262,8 +262,8 @@
 		(uuid "b8bfbb92-3af5-4a4d-9eab-47c0f6aab888")
 	)
 	(fp_circle
-		(center 23 -6.5)
-		(end 25 -6.5)
+		(center 24.3 -6.71)
+		(end 25.3 -6.71)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -273,8 +273,8 @@
 		(uuid "81d7d67f-939d-483e-8931-e63ccb2da8e1")
 	)
 	(fp_circle
-		(center 23 14.5)
-		(end 25 14.5)
+		(center 24.3 14.33)
+		(end 25.3 14.33)
 		(stroke
 			(width 0.1)
 			(type default)
